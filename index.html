@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Mitzi - net</title>
+   <link rel="icon" href="images/favicon.jpeg">
+   <link rel="stylesheet" href="styles/styles.css">
+   <script src="scripts/script.js"></script>
+
+</head>
+<body>
+ <div>
+    <div class="image-container">
+      <img src="images/logo2.jpg" class="image">
+    </div>
+    <div class="text-container">
+      <h1>
+        Welcome to Our Pet Store Club
+      </h1>
+      <p class="about-text">
+        Discover a world of tail-wagging delights at our exclusive Pet Store Club.
+      </p>
+      <p class="about-text">
+        From premium pet foods to stylish accessories, we've got everything your furry friend needs to live their best life. 
+      </p>
+      <p class="about-text">
+        Join us today and unleash the joy of pet parenting!
+      </p>
+    </div>
+      
+ 
+    <div class="container">
+        <h2>Join Now!</h2>
+        <div id="signup-form">
+          <div class="form-group">
+            <div class="name-container">
+              <div class="name-group">
+                <label for="firstName">First Name*:</label>
+                <input type="text" id="firstName" name="firstName">
+              </div>
+              <div class="name-group">
+                <label for="lastName">Last Name*:</label>
+                <input type="text" id="lastName" name="lastName">
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone Number*:</label>
+            <input type="tel" id="phone" name="phone">
+          </div>
+          <div class="form-group">
+            <label for="email">Email*:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div class="form-group">
+            <label for="password">Password*:</label>
+            <div class="error-container" id="passwordErrorContainer">(At least 8 characters) </div>
+            <input type="password" id="password" name="password">
+            
+          </div>
+          <div class="form-group">
+            <label for="confirmPassword">Confirm Password*:</label>
+            <input type="password" id="confirmPassword" name="confirmPassword">
+          </div>
+          <button class="button" onclick="validateForm()">Sign Up</button>
+        </div>
+      </div>
+    </div>
+   </div>
+
+<body>
